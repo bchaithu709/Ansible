@@ -2,4 +2,4 @@
 - name: ping all servers
   hosts: all
   tasks:
-    action: ping
+    - action: ping
