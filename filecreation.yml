@@ -1,0 +1,8 @@
+---
+- name: File Creation
+  hosts: all
+  tasks:
+    - name: Test file Creation
+      file:
+        path: "/opt/Hello-chaitanya"
+        state: touch
